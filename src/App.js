@@ -1,22 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Noticia from './components/Noticia.js';
 
-function Componente1() {
-  const practica = {
-    curso:"REACT",
-    fecha:"20 de mayo"
-}
-
-const {curso, fecha} = practica
-  return (
-    <div>
-
-      <h1> Mi curso es:{curso}</h1>
-      <h2> Inicia el dia:{fecha}</h2>
-    </div>
-  )
-
-}
 
 function App() {
   return (
@@ -35,7 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Componente1></Componente1>
+     <Noticia></Noticia>
     </div>
    
   );
